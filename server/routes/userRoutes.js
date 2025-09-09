@@ -39,3 +39,10 @@ router.get("/get-all-doctor", getAllDoctorController);
 
 // get all patient
 router.get("/get-all-patient", adminTokenAuth, getAllPatientController);
+
+// get single patient
+router.get("/single-patient", patientTokenAuth, getSinglePtientController);
+// get single doctor
+router.get("/single-doctor", doctorTokenAuth, getSinglePtientController);
+// get single admin
+router.get("/single-admin", adminTokenAuth, getSinglePtientController);
