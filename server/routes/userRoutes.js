@@ -29,3 +29,7 @@ router.post("/login-user", loginUserController);
 // add new admin
 // only admin create a admin
 router.post("/create-new-admin", adminTokenAuth, createAdminController);
+
+// add new doctor
+// only admin create a doctor
+router.post("/create-new-doctor", adminTokenAuth, createNewDoctorController);
