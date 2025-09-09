@@ -33,3 +33,6 @@ router.post("/create-new-admin", adminTokenAuth, createAdminController);
 // add new doctor
 // only admin create a doctor
 router.post("/create-new-doctor", adminTokenAuth, createNewDoctorController);
+
+// get all doctor
+router.get("/get-all-doctor", getAllDoctorController);
