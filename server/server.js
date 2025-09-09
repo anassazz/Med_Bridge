@@ -58,3 +58,7 @@ app.use("/api/v1/appointments", appointmentRoutes);
 app.listen(3030, () => {
   console.log(`Server listen on PORT ${port} `);
 });
+
+// last export in error MIddleware
+app.use(errorMiddleware);
+export default app;
