@@ -19,3 +19,6 @@ import {
   patientTokenAuth,
 } from "../middleware/auth.js";
 const router = express.Router();
+
+// create a user
+router.post("/create-patient", createUserController);
