@@ -18,3 +18,4 @@ import {
   doctorTokenAuth,
   patientTokenAuth,
 } from "../middleware/auth.js";
+const router = express.Router();
