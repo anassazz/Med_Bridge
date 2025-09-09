@@ -46,3 +46,10 @@ router.get("/single-patient", patientTokenAuth, getSinglePtientController);
 router.get("/single-doctor", doctorTokenAuth, getSinglePtientController);
 // get single admin
 router.get("/single-admin", adminTokenAuth, getSinglePtientController);
+
+// logged Out admin
+router.get("/logout-admin", adminTokenAuth, logOutAdmin);
+// logged Out Patient
+router.get("/logout-patient", patientTokenAuth, logOutPatient);
+// LogOut Doctor
+router.get("/logout-doctor", doctorTokenAuth, logOutDoctor);
