@@ -53,3 +53,9 @@ router.get("/logout-admin", adminTokenAuth, logOutAdmin);
 router.get("/logout-patient", patientTokenAuth, logOutPatient);
 // LogOut Doctor
 router.get("/logout-doctor", doctorTokenAuth, logOutDoctor);
+
+// delete single doctor
+router.delete("/delete/doctor/:id", adminTokenAuth, deleteDoctorController);
+// delete single patient
+router.delete("/delete/patient/:id", adminTokenAuth, deletePatientController);
+export default router;
