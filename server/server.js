@@ -53,3 +53,8 @@ mongoose
 app.use("/api/v1/user", userRoutes);
 app.use("/api/v1/message", messageRoutes);
 app.use("/api/v1/appointments", appointmentRoutes);
+
+// app listen here
+app.listen(3030, () => {
+  console.log(`Server listen on PORT ${port} `);
+});
