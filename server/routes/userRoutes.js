@@ -13,3 +13,8 @@ import {
   logOutPatient,
   loginUserController,
 } from "../controller/userController.js";
+import {
+  adminTokenAuth,
+  doctorTokenAuth,
+  patientTokenAuth,
+} from "../middleware/auth.js";
