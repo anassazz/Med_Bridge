@@ -25,3 +25,7 @@ router.post("/create-patient", createUserController);
 
 // login routes
 router.post("/login-user", loginUserController);
+
+// add new admin
+// only admin create a admin
+router.post("/create-new-admin", adminTokenAuth, createAdminController);
