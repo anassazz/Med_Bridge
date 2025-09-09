@@ -48,3 +48,8 @@ mongoose
     console.log("Database Connection Successfully");
   })
   .catch((error) => console.log("Database Error is ", error));
+
+  // all routes here
+app.use("/api/v1/user", userRoutes);
+app.use("/api/v1/message", messageRoutes);
+app.use("/api/v1/appointments", appointmentRoutes);
