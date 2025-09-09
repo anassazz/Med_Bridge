@@ -22,3 +22,22 @@ cloudinary.v2.config({
 // all port from dotenv
 const port = process.env.PORT;
 const url = process.env.MONGO_URL;
+
+// all middleware is here
+app.use(
+  cors({
+    origin: [process.env.FRONTEND_URL, process.env.DASHBOARD_URL],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
+app.use(express.json());
+app.use(morgan("dev"));
+app.use(cookieParser());
+app.use(express.urlencoded({ extended: true }));
+app.use(
+  fileUpload({
+    tempFileDir: "/tmp/",
+    useTempFiles: true,
+  })
+);
