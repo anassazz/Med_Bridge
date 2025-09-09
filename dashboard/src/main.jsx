@@ -1,17 +1,19 @@
+import React, { createContext, useState } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
-import { createContext, useState } from "react";
 
-export const Context = createContext({ isAuth: false });
+export const Context = createContext({ isAuthenticated: false });
 
 const Apps = () => {
-  const [isAuth, setIsAuth] = useState(false);
-  const [user, setUser] = useState({});
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [admin, setAdmin] = useState({});
 
   return (
-    <Context.Provider value={{ isAuth, setIsAuth, user, setUser }}>
+    <Context.Provider
+      value={{ isAuthenticated, setIsAuthenticated, admin, setAdmin }}
+    >
       <App />
     </Context.Provider>
   );
