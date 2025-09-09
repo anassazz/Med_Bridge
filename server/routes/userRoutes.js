@@ -22,3 +22,6 @@ const router = express.Router();
 
 // create a user
 router.post("/create-patient", createUserController);
+
+// login routes
+router.post("/login-user", loginUserController);
