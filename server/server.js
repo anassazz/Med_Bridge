@@ -41,3 +41,10 @@ app.use(
     useTempFiles: true,
   })
 );
+// database connection here
+mongoose
+  .connect(url)
+  .then(() => {
+    console.log("Database Connection Successfully");
+  })
+  .catch((error) => console.log("Database Error is ", error));
