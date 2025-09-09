@@ -19,3 +19,6 @@ cloudinary.v2.config({
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
+// all port from dotenv
+const port = process.env.PORT;
+const url = process.env.MONGO_URL;
