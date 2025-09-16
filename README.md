@@ -1,12 +1,12 @@
-# 🏥 Hospital Management System (MERN)
+#  Hospital Management System (MERN)
 
-## 📌 Description
+##  Description
 
 The **Hospital Management System (HMS)** is a full-stack web application built using the **MERN stack** (MongoDB, Express, React, Node.js). It aims to digitalize and centralize hospital operations by providing a secure, scalable, and user-friendly platform for patients, doctors, nurses, labs, and administrators.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * **Authentication & Authorization** (JWT, RBAC)
 * **Patient Management**: profiles, medical history, allergies, prescriptions
@@ -56,7 +56,7 @@ The **Hospital Management System (HMS)** is a full-stack web application built u
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 HMS-MERN/
@@ -166,7 +166,7 @@ npm test
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/YourFeature`)
@@ -182,6 +182,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 
 * ANASS AZZ(https://github.com/anassazz) — Full Stack Developer
