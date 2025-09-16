@@ -8,7 +8,7 @@ The **Hospital Management System (HMS)** is a full-stack web application built u
 
 ##  Features
 
-* **Authentication & Authorization** (JWT, RBAC)
+* **Authentication & Authorization** (JWT)
 * **Patient Management**: profiles, medical history, allergies, prescriptions
 * **Doctor Module**: consultations, prescriptions, appointments
 * **Appointments & Scheduling**: booking, agenda views (day/week/month)
