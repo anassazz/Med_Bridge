@@ -132,9 +132,9 @@ HMS-MERN/
    http://localhost:3000
    ```
 
----
 
-## 🐳 Docker Setup
+
+
 
 ```bash
 docker-compose up --build
@@ -142,20 +142,12 @@ docker-compose up --build
 
 This will spin up the backend, frontend, and MongoDB services.
 
----
 
-## 🔒 Security
 
-* Passwords hashed with bcrypt
-* JWT authentication with refresh tokens
-* Role-based access control (RBAC)
-* HTTPS recommended in production
+
 
 ---
 
-## ✅ Tests
-
-Run backend tests:
 
 ```bash
 cd backend
@@ -169,14 +161,8 @@ cd frontend
 npm test
 ```
 
----
 
-## 📊 Roadmap
 
-* [ ] Add payment gateway integration (Stripe/PayPal)
-* [ ] Enhance analytics & dashboards
-* [ ] Multi-language support
-* [ ] Mobile app version (React Native)
 
 ---
 
@@ -198,4 +184,4 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Authors
 
-* [Your Name](https://github.com/yourusername) — Full Stack Developer
+* ANASS AZZ(https://github.com/anassazz) — Full Stack Developer
